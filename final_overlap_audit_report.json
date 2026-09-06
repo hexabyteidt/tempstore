@@ -1,0 +1,28 @@
+{
+  "script_version": "v1.0",
+  "run_timestamp_utc": "2026-09-06T07:54:38.958845+00:00",
+  "external_file": "candidate_studies_list.csv",
+  "external_file_sha256": "e0bcb5bbbaa8bb95493f1a0fa9f119fd1f5ca7fca78425e5faa53be7d4c87746",
+  "primary_file": "/home/claude/pipeline/outputs/tables/cleaned_dataset_full.csv",
+  "primary_file_sha256": "ac1100551708fed03e740865a01b7ca96db6dd90842ba10457ce51f689bd8869",
+  "missing_doi_count": 0,
+  "malformed_doi_count": 18,
+  "confirmed_doi_overlap_count": 7,
+  "confirmed_doi_overlap_dois": [
+    "10.1007/s00128-015-1669-3",
+    "10.1007/s11356-017-0326-2",
+    "10.1007/s11356-017-9654-5",
+    "10.1007/s11356-020-08319-w",
+    "10.1007/s11356-020-09233-x",
+    "10.1007/s11368-022-03303-y",
+    "10.1038/srep13554"
+  ],
+  "probable_overlap_flags": [],
+  "probable_overlap_count": 0,
+  "internal_duplicate_count": 0,
+  "verdict_flags": [
+    "CONFIRMED DOI overlap present -- these rows must be removed or explicitly justified before freezing.",
+    "Malformed or missing DOIs present -- fix before freezing."
+  ],
+  "clear_to_freeze": false
+}
