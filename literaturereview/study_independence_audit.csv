@@ -1,0 +1,5 @@
+record_a,record_b,relationship_status,shared_evidence,decision
+B1,Thurston 2023 thesis,DUPLICATE_SHARED_EXPERIMENT,"Same Tar Creek soil campaign, cultivars, biochar rates, contamination levels, 90-day design",Count B1 once; thesis not a separate study
+B6,Ha et al. primary dataset,DUPLICATE_SHARED_STUDY,Exact DOI 10.5696/2156-9614-7.16.12 and matching Bambusa/Dendrocalamus tannery rows,Exclude B6 from external set
+B2,Bian et al. 2017 / DOI 10.1007/s11356-017-0326-2,UNRESOLVED_POSSIBLE_SHARED_STUDY,Shared authorship/lineage and similar Phyllostachys/Cu-Zn-Cd four-year framing; units inaccessible,Do not include B2
+A2,B4,DISTINCT_STUDIES,"Different countries/sites, soil sources, designs, authors and cultivars",Both retained; study-level clustering noted

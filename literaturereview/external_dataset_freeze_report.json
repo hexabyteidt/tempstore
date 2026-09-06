@@ -1,0 +1,43 @@
+{
+  "final_row_count": 55,
+  "final_independent_study_count": 4,
+  "species_counts": {
+    "Cannabis sativa L.": 42,
+    "Helianthus annuus L.": 14
+  },
+  "element_counts": {
+    "Cd": 18,
+    "Co": 2,
+    "Cr": 2,
+    "Cu": 2,
+    "Ni": 2,
+    "Pb": 13,
+    "Zn": 16
+  },
+  "excluded_study_count": 4,
+  "duplicate_shared_study_count": 1,
+  "unresolved_study_count": 3,
+  "excluded_observation_count": 0,
+  "missingness_summary": {
+    "soil_pH": 55,
+    "soil_organic_matter": 55,
+    "soil_texture": 55,
+    "duration_days": 14
+  },
+  "doi_overlap_result": "No confirmed DOI overlap among included studies; B6 excluded for exact overlap with Ha dataset",
+  "duplicate_result": "No unresolved duplicate among included observations; B1 thesis lineage excluded from independent count",
+  "unresolved_issue_count": 3,
+  "sha256": "ad72c4ffe416ae0865aed39cbaef0cddc199ba29bb6260c43d58375e08887ca6",
+  "timestamp": "2026-09-06T15:56:51.256874+00:00",
+  "validation_status": "NOT FROZEN",
+  "reason_not_frozen": "Quality Gate 1/2 cannot be declared fully passed for the whole candidate universe because three candidates remain unresolved; the produced final CSV contains only verified eligible observations, but the protocol requires unresolved cases to remain flagged and the dataset is not declared frozen until human review of unresolved candidates and locked Ha reference files is complete.",
+  "bcf_range": [
+    0.013,
+    48.7
+  ],
+  "median_bcf": 1.059,
+  "directly_reported_count": 20,
+  "digitized_count": 18,
+  "derived_from_direct_concentrations_count": 18,
+  "validation_script": "build_artifacts.py"
+}

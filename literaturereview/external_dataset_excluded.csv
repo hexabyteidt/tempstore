@@ -1,0 +1,9 @@
+study_id,DOI,species,element,BCF_value,eligibility_status,exclusion_reason,source_reference
+chemosphere_2024_hemp,10.1016/j.chemosphere.2024.142199,Cannabis sativa,,,UNRESOLVED,No full source access; BCF and treatment history unresolved.,verification_A1_chemosphere_2024_hemp.md
+castor_mining_2026,10.3390/agriculture16070748,Ricinus communis,,,EXCLUDED,No exact BCF observations; only isolated concentrations/CBCI.,verification_A3_castor_mining_2026.md
+moso_bamboo_tailings_2023,10.1007/s42729-023-01275-7,Phyllostachys pubescens,,,EXCLUDED,Not a primary experiment; no BCF.,verification_A4_moso_bamboo_tailings_2023.md
+phyllostachys_praecox_monoculture_2018,10.1080/15226514.2017.1374339,Phyllostachys praecox,,,UNRESOLVED,Full methods/BCF inaccessible; possible shared study.,verification_B2_phyllostachys_praecox_monoculture_2018.md
+phyllostachys_praecox_cultivation_time_2020,10.1016/S1002-0160(20)60033-9,Phyllostachys praecox,,,UNRESOLVED,No plant BCF data accessible.,verification_B3_phyllostachys_praecox_cultivation_time_2020.md
+thurston_tarcreek_hemp_selenium,10.1021/acs.est.9b07747,Cannabis sativa,,,EXCLUDED,Field Se lacks paired soil denominator; greenhouse arm ineligible.,verification_B5_thurston_tarcreek_hemp_selenium.md
+kenya_tannery_bamboo_cr,10.5696/2156-9614-7.16.12,Bambusa/Dendrocalamus,,,DUPLICATE_SHARED_STUDY,Exact DOI and matching rows in Ha data.,verification_B6_kenya_tannery_bamboo_cr.md
+kastamonu_sunflower_mining_dilution,10.17475/kastorman.1269527,Helianthus annuus,,,EXCLUDED,Controlled clean-soil dilution series is prohibited.,verification_C1_kastamonu_sunflower_mining_dilution.md
